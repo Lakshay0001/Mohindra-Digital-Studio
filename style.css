@@ -1,0 +1,45 @@
+
+.mds {
+    font-family: 'Kalam', cursive;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+.active {
+    background-color: #00000060 !important;
+} 
+
+.nav {
+    font-size: 15px;
+}
+
+.cover-container {
+    background: linear-gradient(to bottom, rgba(198,154,93, 0.8) 0%, rgba(58,94,112, 0.8) 100%), url(./images/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+main {
+    padding: 245px;
+}
+
+.text-back {
+    border-radius: 10px;
+}
+
+.text-back > h1,p {
+    padding: 5px 15px;
+}
+
+.lead {
+    font-weight: 500;
+    display: flex;
+}
+
+.lead > a {
+    align-items: end;
+}
