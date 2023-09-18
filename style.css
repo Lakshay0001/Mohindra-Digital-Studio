@@ -5,6 +5,7 @@ header {
     top: 0;
     width: 100%;
     padding-bottom: 0;
+    z-index: 1;
 }
 
 header > a {
@@ -24,8 +25,8 @@ header > a {
 }
 
 .active {
-    background-color: #00000060 !important;
-    color: black !important;
+    background-color: #000000 !important;
+    color: white !important;
 }
 
 .nav {
@@ -41,7 +42,7 @@ header > a {
 }
 
 main {
-    padding: 245px;
+    padding: 300px;
 }
 
 .text-back {
@@ -62,8 +63,31 @@ p {
     align-items: end;
 }
 
+.tagline-para {
+    font-style: italic;
+    text-align: justify;
+}
 .couple-image {
     border-radius: 10px;
+}
+
+#features {
+    text-align: justify;
+}
+
+.owner {
+    border-radius: 50%;
+}
+
+.apply-border {
+    border: 3px solid black;
+}
+.owner-info {
+    font-family: 'Kalam', cursive;
+}
+
+.text-align-left {
+    text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -78,12 +102,16 @@ p {
         background-attachment: scroll;
         background-size: cover;
     }
+
+
 }
 
 @media (max-width: 576px) {
 
     .mds {
         font-size: 15px !important;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .mds-svg {
@@ -95,6 +123,25 @@ p {
     .nav, .nav-item .nav-link {
         font-size: small;
         padding: 5px 7px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 412px) {
+
+    .mds {
+        font-size: 12px !important;
+    }
+
+    .mds-svg {
+        height: 15px;
+        width: 15px;
+    }
+
+
+    .nav, .nav-item .nav-link {
+        font-size: smaller;
+        padding: 3px 5px;
         margin: 0;
     }
 }
