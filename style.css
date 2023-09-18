@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden !important;
+}
+
 header {
     overflow: hidden;
     background-color: white;
@@ -127,7 +131,7 @@ p {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 389px) {
 
     .mds {
         font-size: 12px !important;
