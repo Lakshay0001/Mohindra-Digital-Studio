@@ -131,7 +131,7 @@ p {
     }
 }
 
-@media (max-width: 389px) {
+@media (max-width: 414px) {
 
     .mds {
         font-size: 12px !important;
@@ -146,6 +146,25 @@ p {
     .nav, .nav-item .nav-link {
         font-size: smaller;
         padding: 3px 5px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .mds {
+        font-size: 10px !important;
+    }
+
+    .mds-svg {
+        height: 13px;
+        width: 13px;
+    }
+
+
+    .nav, .nav-item .nav-link {
+        font-size: x-small;
+        padding: 2px 4px;
         margin: 0;
     }
 }
