@@ -1,5 +1,9 @@
-body {
+html, body {
     overflow-x: hidden !important;
+}
+
+body {
+    position: relative;
 }
 
 header {
