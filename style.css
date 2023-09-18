@@ -153,7 +153,7 @@ p {
 @media (max-width: 375px) {
 
     .mds {
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 
     .mds-svg {
