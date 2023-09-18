@@ -127,7 +127,7 @@ p {
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 390px) {
 
     .mds {
         font-size: 12px !important;
